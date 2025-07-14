@@ -84,18 +84,7 @@ The game integrates two key technologies for real-time interaction:
 	If all lives are lost, a Game Over screen is displayed showing the player’s final score.
 
 
-
-
-
-
-
-
-
-
-
-
-
-________________________________________Results
+# Results
 
 •	The project successfully implements a face-controlled paddle movement system using real-time MediaPipe facial tracking.
 •	Lives and score systems were integrated to enhance the user experience.
@@ -103,20 +92,19 @@ ________________________________________Results
 
 
 
-
 This project successfully demonstrates the application of computer vision to create a hands-free gaming experience. By controlling the game via head movement, it opens doors for creating more accessible games for individuals with mobility impairments. Future improvements could include gesture-based controls, more complex game mechanics, and customizable player interactions.
 
 The project also provides an example of integrating Python, OpenCV, MediaPipe, and Pygame to create interactive multimedia applications.
-________________________________________
 
-________________________________________Folder Structure
+
+# Folder Structure
 
 📁 face_game/
  ├── main.py           ← Game logic, game loop, collision detection, paddle control
  └── face_tracker.py   ← Facial landmark detection and head angle calculation
 ________________________________________
 
-Installation & Setup
+# Installation & Setup
 
 1.	Install Dependencies:
 pip install opencv-python mediapipe pygame
@@ -124,7 +112,7 @@ pip install opencv-python mediapipe pygame
 2.	Run the Game:
 python main.py
 ________________________________________
-References:
+# References:
 •	MediaPipe: https://google.github.io/mediapipe/
 •	OpenCV Documentation: https://opencv.org/
 •	Pygame Documentation: https://www.pygame.org/docs/
